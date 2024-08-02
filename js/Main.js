@@ -1,18 +1,10 @@
 
 import { MostrarHTML } from "./CrearHTML.js"
-
+import { MostrarDatosEnConsola } from "./ConsultarJSON.js"
 /* Los componentes */
 document.addEventListener('DOMContentLoaded', ev => {
     MostrarHTML()
+    MostrarDatosEnConsola()
+   
 })
 
-function MostrarDatosConfiguracion() {
-    /* Truco !Fetch */
-    let url = "/js/Configuraciones.json"
-    fetch(url)
-    
-        .then(response => response.json())
-    
-        .then(data => console.log(data));
-    
-}

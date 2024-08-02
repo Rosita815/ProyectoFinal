@@ -1,13 +1,13 @@
 console.log("Funciona")
 
 function CrearNavbar() {
-    let html ``
+    let html = ``
 
     return html
 }
 
 function CrearFooter() {
-    let html ``
+    let html = ``
 
     return html
 }

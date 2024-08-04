@@ -3,14 +3,15 @@
 /* 0- */
 export function MostrarHTML() {
 
-    let navbar = document.getElementById("Navbar").innerHTML = CrearNavbar();
-    let footer = document.getElementById("Footer").innerHTML = CrearFooter();
-    let Noticias = document.getElementById("Noticias").innerHTML = CrearTarjetaNoticias();
-    
+  let navbar = document.getElementById("Navbar").innerHTML = CrearNavbar();
+  let footer = document.getElementById("Footer").innerHTML = CrearFooter();
+  let Noticias = document.getElementById("Noticias").innerHTML = CrearTarjetaNoticias();
+  let Banner = document.getElementById("Banner").innerHTML = CrearBanner();
+  let Tabla = document.getElementById("Tabla").innerHTML = CrearTabla();
 }
 /* 1-Navbar */
 function CrearNavbar() {
-    let html = `
+  let html = `
      <a class="navbar-brand" href="#">
         <img src="img/1-Logo.png" alt="Logo NoticiasTecnológicas" class="navegacion-principal__marca">
       </a>
@@ -32,12 +33,12 @@ function CrearNavbar() {
       </div>
     `
 
-    return html
+  return html
 }
 
 /* 2-Footer */
 function CrearFooter() {
-    let html = `
+  let html = `
     <h3>Derechos de Autor de NoticiasTecnológicas</h3>
       <p>Sigue a NoticiasTecnológicas</p>
       <ul class="list-inline enlaces-pie" id="ListaFooter">
@@ -48,12 +49,12 @@ function CrearFooter() {
       </ul>
     `
 
-    return html
+  return html
 }
 
 /* Main -Secciones 1 Noticias*/
 function CrearTarjetaNoticias() {
-    let html = `
+  let html = `
      <section class=" banner  col-lg-4 ">
           <div class="card h-100">
             <img src="img/1-Noticia.jpg" class="card-img-top" alt="...">
@@ -66,6 +67,42 @@ function CrearTarjetaNoticias() {
     </section>
     `
 
-    return html
+  return html
 }
 
+/* Main .Secciones 2 Banner */
+function CrearBanner() {
+  let html = `
+  <div class="container">
+            <h2>Lorem ipsum dolor.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut qui laudantium id quam magni accusantium,
+              veritatis, ipsam labore, reprehenderit dolore repudiandae nemo sint deserunt! Suscipit facilis qui
+              inventore
+              consequatur fugit.</p>
+    <a href="#" class="boton">Más información <i class="fas fa-chevron-right"></i></a>
+  `
+
+  return html
+}
+
+function CrearTabla() {
+  let html = `
+   <thead class="thead-inverse">
+                <tr>
+                  <th>Id</th>
+                  <th>Nombre</th>
+                 
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>asas</td>
+                  <td>asas</td>
+                 
+                </tr>
+                 
+              </tbody>
+  `
+  return html 
+}

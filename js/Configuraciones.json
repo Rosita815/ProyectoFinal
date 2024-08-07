@@ -32,11 +32,7 @@
       }
     ],
     "footer": [
-      {
-        "nombre": "términos condiciones",
-        "enlace": "#TerminosCondiciones",
-        "claseDeCss": "footer-item"
-      },
+      
       {
         "nombre": "Facebook",
         "enlace": "https://facebook.com",

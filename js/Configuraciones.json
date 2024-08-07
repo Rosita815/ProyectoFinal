@@ -1,7 +1,7 @@
 {
     "navbar": [
       {
-        "nombre": "Inicio2",
+        "nombre": "Home",
         "enlace": "#",
         "activo": true,
         "claseDeCss": "nav-item nav-link"

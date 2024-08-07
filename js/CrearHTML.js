@@ -10,7 +10,7 @@ export function MostrarHTML() {
   let Tabla = document.getElementById("Tabla").innerHTML = CrearTabla();
 }
 /* 1-Navbar */
-function CrearNavbar() {
+const CrearNavbar = () => {
   let html = `
      <a class="navbar-brand" href="#">
         <img src="img/1-Logo.png" alt="Logo NoticiasTecnológicas" class="navegacion-principal__marca">
@@ -37,7 +37,7 @@ function CrearNavbar() {
 }
 
 /* 2-Footer */
-function CrearFooter() {
+const CrearFooter = () => {
   let html = `
     <h3>Derechos de Autor de NoticiasTecnológicas</h3>
       <p>Sigue a NoticiasTecnológicas</p>
@@ -53,7 +53,7 @@ function CrearFooter() {
 }
 
 /* Main -Secciones 1 Noticias*/
-function CrearTarjetaNoticias() {
+const CrearTarjetaNoticias = () => {
   let html = `
      <section class=" banner  col-lg-4 ">
           <div class="card h-100">
@@ -71,7 +71,7 @@ function CrearTarjetaNoticias() {
 }
 
 /* Main .Secciones 2 Banner */
-function CrearBanner() {
+const CrearBanner =() => {
   let html = `
   <div class="container">
             <h2>Lorem ipsum dolor.</h2>
@@ -85,7 +85,7 @@ function CrearBanner() {
   return html
 }
 
-function CrearTabla() {
+const CrearTabla = () => {
   let html = `
    <thead class="thead-inverse">
                 <tr>

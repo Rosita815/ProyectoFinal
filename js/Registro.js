@@ -1,9 +1,5 @@
 import {InsertarUsuarios } from "./Servicios_Config.js"
 
-//Variables Globales 
-let respuesta = []
-let Resultado = []
-
 let CamposFormulario =[
     {
         name:"userId",

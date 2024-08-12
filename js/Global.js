@@ -13,14 +13,14 @@ export async function MostrarHTML() {
   const CrearNavbar = (data) => {
     let html = 
         `
-       <a class="navbar-brand" href="#">
-          <img src="img/1-Logo.png" alt="Logo NoticiasTecnológicas" class="navegacion-principal__marca">
+       <a class="navbar-brand" href="Inicio.html">
+          <img src="img/Logo1.jpg" alt="Logo" class="navegacion-principal__marca">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="ListaNavbar">
+        <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav mr-auto">
           `
           data.forEach(element => {

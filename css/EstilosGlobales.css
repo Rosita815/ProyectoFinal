@@ -4,9 +4,22 @@ body {
     color: #fff;
   }
 
+  .borde_1{
+    border: #272222 solid 10px;
+    background-color: #877771;
+  }
+
   a {
     color: #ffffff;
     text-decoration: none;
+  }
+
+  hr{
+    border: #272222 solid 5px;
+  }
+
+  .navbar{
+    background: #272222;
   }
 
   .navegacion-principal__marca {
@@ -16,7 +29,7 @@ body {
   .cabecera {
     text-align: center;
     padding: 50px 20px;
-    background: url("/img/1-Header.jpg") no-repeat center center/cover;
+    background: url("/img/Cabecera.jpg") no-repeat center center/cover;
   }
 
   .boton {
@@ -32,32 +45,36 @@ body {
     opacity: 0.9;
   }
 
-  .banner {
-    padding: 50px 20px;
+  .formulario{
+    padding: 20px;
+    margin-top: 20px;
+  }
+ 
+
+ .tabla_Usuario {
+     
+  }
+
+  .tabla_Rick {
     text-align: center;
-    opacity: 0.9;
-    
-  }
+  } 
 
-  .banner-tarjetas-uno {
-    background: url("/img/1-Banner.jpg") no-repeat center center/cover;
-    
-  }
-
-  .banner-tarjetas-dos {
-    background: url("/img/2-Banner.jpg") no-repeat center center/cover;
-  }
+  .form1 {
+  border: #272222 solid 5px;
+  background: url("/img/1620x1080-Rick-and-Morty-Wallpaper.jpg") no-repeat center center/cover;
+}
   .spaced-div {
     margin-bottom: 20px; /* Ajusta este valor según el espaciado deseado */
   }
-  .social a i {
-    font-size: 3rem;
-  }
+
+  .tarjeta1{
+    text-align: center;
+    background-color: #20dad8;
+}
 
   
-
   .pie {
-    background: #2f3640;
+    background: #272222;
     color: #616161;
     text-align: center;
     padding: 20px 0;

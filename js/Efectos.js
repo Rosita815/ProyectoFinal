@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function Transiciones() {
   ScrollReveal().reveal('.cabecera');
-  ScrollReveal().reveal('.tarjetas-noticias', { delay: 500 });
-  ScrollReveal().reveal('.banner-tarjetas-uno', { delay: 500 });
-  ScrollReveal().reveal('.banner-tarjetas-dos', { delay: 500 });
+  ScrollReveal().reveal('.tarjetas', { delay: 500 });
+  ScrollReveal().reveal('.tabla_Usuario', { delay: 500 });
+  ScrollReveal().reveal('.tabla_Rick', { delay: 500 });
 }
